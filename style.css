@@ -1,0 +1,17 @@
+.element {
+  border: 0px double rgba(100, 100, 100, 1);
+  border-radius: 25px;
+  background: linear-gradient(
+    45deg,
+    rgba(110, 15, 17, 1) 12%,
+    rgba(7, 33, 179, 1) 84%
+  );
+  background-blend-mode: normal;
+  animation: cssAnimation_0 3000ms infinite ease-out;
+}
+
+@keyframes cssAnimation_0 {
+  to {
+    transform: rotate(8deg) translate(0px, 0px);
+  }
+}
